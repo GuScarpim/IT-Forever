@@ -1,7 +1,5 @@
 # IT-Forever
 
-Projeto desenvolvido como um desafio de uma empresa.
-
 ## <a href="https://itforever.netlify.app/">Veja o projeto em ação</a>
 
 ## Linguagens e ferramentas utilizadas
