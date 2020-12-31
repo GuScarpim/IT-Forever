@@ -2,7 +2,7 @@
 
 Projeto desenvolvido como um desafio de uma empresa.
 
-## <a>Clique aqui para ir até o projeto</a>
+## <a href="https://itforever.netlify.app/">Clique aqui para ir até o projeto</a>
 
 ## Linguagens e ferramentas utilizadas
 
