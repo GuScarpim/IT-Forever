@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  input, button, textarea {
+  button {
     font-family: 'Zilla Slab';
   }
 

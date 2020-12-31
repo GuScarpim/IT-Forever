@@ -7,6 +7,13 @@ export const Container = styled.div`
   padding: 50px 20px 0 20px;
 `
 
+export const PositionSpinner = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+`
+
 export const Card = styled.div`
   animation: show .5s cubic-bezier(.1,.82,.25,1);
   background: #fff;
@@ -129,6 +136,10 @@ export const CreateNew = styled.div`
       background: #c1866f;
     }
   }
+
+  @media (max-width: 443px) {
+    width: 110%;
+  }
 `
 interface IModal {
   open: boolean;
@@ -138,7 +149,6 @@ export const Modal = styled.div<IModal>`
   display: ${(props) => props.open ? 'block' : 'none'};
   position: fixed; 
   z-index: 1; 
-  padding-top: 100px; 
   left: 0;
   top: 0;
   width: 100%; 
@@ -148,9 +158,19 @@ export const Modal = styled.div<IModal>`
   background-color: rgba(0,0,0,0.4); 
 `
 
-export const ModalContent = styled.div`
+export const Centralize = styled.div`
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+`
+
+export const ModalContent = styled.div`
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   background-color: #fefefe;
   margin: auto;
@@ -158,6 +178,12 @@ export const ModalContent = styled.div`
   border: 1px solid #888;
   width: 80%;
   position: relative;
+
+  img {
+    width: 150px;
+    height: 80px;
+    margin: 5px 0 -35px 0;
+  }
 
   input {
     width: 100%;

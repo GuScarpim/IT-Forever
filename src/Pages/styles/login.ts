@@ -15,6 +15,13 @@ export const Container = styled.div`
 
 `
 
+export const PositionSpinner = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+`
+
 export const Header = styled.div`
   display: flex;
   justify-content: center;
