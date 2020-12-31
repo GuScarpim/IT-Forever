@@ -1,0 +1,13 @@
+{
+  "paths": {
+    "login": "/",
+    "home": "/home"
+  },
+  "api": {
+    "login": "https://itforever.herokuapp.com/api/v1/profile/login/",
+    "getUser": "https://itforever.herokuapp.com/api/v1/user/",
+    "createProduct": "https://itforever.herokuapp.com/api/v1/user/",
+    "updateProduct": "https://itforever.herokuapp.com/api/v1/user/",
+    "deleteProduct": "https://itforever.herokuapp.com/api/v1/user/"
+  }
+}
