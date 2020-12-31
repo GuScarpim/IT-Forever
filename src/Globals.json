@@ -1,0 +1,13 @@
+{
+  "paths": {
+    "login": "/",
+    "home": "/home"
+  },
+  "api": {
+    "login": "http://localhost:3030/api/v1/profile/login/",
+    "getUser": "http://localhost:3030/api/v1/user/",
+    "createProduct": "http://localhost:3030/api/v1/user/",
+    "updateProduct": "http://localhost:3030/api/v1/user/",
+    "deleteProduct": "http://localhost:3030/api/v1/user/"
+  }
+}
