@@ -33,7 +33,7 @@
 
 # Desenvolvido por Gustavo Scarpim:
 
-## Desketop
+## Desktop
 ![Projeto em ação](./src/Assets/IT_forever.gif)
 
 ## Mobile
